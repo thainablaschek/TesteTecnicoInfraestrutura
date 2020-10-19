@@ -24,12 +24,8 @@ git clone --------------------
 Construção (Build): 
 Para construir o projeto com o Docker, executar os comando abaixo:
 - docker-compose up
-
-Depois acessar o http://localhost:3000/ logar como admin senha: ------------ ir e em plugiins -> datasource -> prometheus. Configurar com o nome Prometheus e a URL: http://127.0.0.1:9090
-- Acessar: + -> import -> Import via panel json, importar o conteudo:
-
-----------
-->Load 
+- Depois acessar o http://localhost:3000/ logar como admin senha:444e0ade-ad46-4d7e-9406-283b5564d721  ir e em plugiins -> datasource -> prometheus. Configurar com o nome Prometheus e a URL: http://127.0.0.1:9090
+- Acessar: + -> import -> Import via panel json, importar o conteudo do arquivo: dashboard  ->Load 
 
 Features: 
 O projeto pode ser utilizado para criar uma base de dados de comentarios e quais os eventuais nomes, logo pode ser realizado o monitoramento a partir do Grafana para saber como estão sendo utilados os logs da aplicação.
